@@ -21,3 +21,6 @@ def calcular_promedio(lista_numeros):
         suma += numero
     promedio = suma / len(lista)  # Error: 'lista' no está definido
     return promedio
+
+def es_par(numero):
+    return numero % 2 == 1
