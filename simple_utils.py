@@ -19,5 +19,13 @@ def calcular_promedio(lista_numeros):
     suma = 0
     for numero in lista_numeros:
         suma += numero
-    promedio = suma / len(lista)  # Error: 'lista' no está definido
+    promedio = suma / len(lista_numeros)
     return promedio
+
+# Option 2: Keep the name “es_par” and fix the logic to check for even
+def es_par(numero):
+    return numero % 2 == 0
+
+def imprimir_elementos(lista):
+    for i in range(len(lista)):  
+        print(lista[i + 1])
