@@ -14,3 +14,10 @@ def celsius_to_fahrenheit(celsius):
 def count_words1(sentence):
     print("This function is deprecated, use count_words instead.")
     return len(sentence.split())
+
+def calcular_promedio(lista_numeros):
+    suma = 0
+    for numero in lista_numeros:
+        suma += numero
+    promedio = suma / len(lista)  # Error: 'lista' no está definido
+    return promedio
