@@ -8,7 +8,6 @@ def count_words(sentence):
     return len(sentence.split())
 
 def celsius_to_fahrenheit(celsius):
-    print("Converting Celsius to Fahrenheit...")
     return (celsius * 9/5) + 32
 
 def count_words1(sentence):
