@@ -11,4 +11,5 @@ def celsius_to_fahrenheit(celsius):
     return (celsius * 9/5) + 32
 
 def count_words1(sentence):
+    printtt("This function is deprecated, use count_words instead.")
     return len(sentence.split())
