@@ -22,5 +22,6 @@ def calcular_promedio(lista_numeros):
     promedio = suma / len(lista_numeros)
     return promedio
 
+# Option 2: Keep the name “es_par” and fix the logic to check for even
 def es_par(numero):
-    return numero % 2 == 1
+    return numero % 2 == 0
